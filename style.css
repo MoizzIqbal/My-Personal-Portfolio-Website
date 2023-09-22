@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.bold{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.container{
+    align-items: center;
+}
+.nav-item{
+  float: right;
+}
+.hello{
+    margin-top: 200px;
+}
+.img{
+    background-image: url("removebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+span{
+    color: #FFBD39;
+    font-weight:bolder;
+  }
+.btn1{
+    color: black;
+  border-radius: 20px;
+  background-color: #FFBD39;
+  padding: 8px 15px;
+}
+.btn2{
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    padding: 8px 15px;
+    border: 1px solid grey;
+  }
+  .grey{
+    color:#1A1A1A;
+    font-size: 100px;
+    position: relative;
+    top: 130px;
+    right: 18px;
+    z-index: -1;
+  }
+  .para{
+    color: gray;
+    font-weight: bold;
+    position: relative;
+    top: 42px;
+  }
+  .moiz{
+    margin-left: 90px;
+    color: grey;
+  }
+  .moiz p{
+    color: gray;
+  }
+  .detail p{
+    font-weight: 900;
+  }
+  .btn{
+    color: black;
+  border-radius: 20px;
+  background-color: #FFBD39;
+  width: 30%;
+  }
+.self-card{
+  background-color: #1A1A1A;
+}
+.card{
+    background-color:black
+  }
+  .progress{
+   background-color: #1A1A1A;
+   height:13px;
+  }
+  .progress-bar{
+    color: #FFBD39;
+    border-radius: 12px;
+  }
+  .contact-icon{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #1A1A1A;
+    margin: 0 89px;
+    align-items: center;
+    
+  }
+  .contact-icon svg{
+    font-size: xx-large;
+    position: relative;
+    top: 27px;
+    left: 17px;
+  }
+  .bg-light{
+    padding: 23px;
+    height: 90vh;
+  }
+  ul li{
+    list-style: none;
+  }
+  ul li a{
+    text-decoration: none;
+  }
